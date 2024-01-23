@@ -1,21 +1,51 @@
-"use client";
-import Image from "next/image";
-import "./what.css";
-import Love from "../../public/love.svg";
-import Medkit from "../../public/medkit.svg";
-import Calendar from "../../public/calendar.svg";
-import Wallet from "../../public/wallet.svg";
-import Contact from "../../public/contact.svg";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+'use client';
+import Image from 'next/image';
+import styles from './what.module.css';
+import Love from '../../public/love.svg';
+import Medkit from '../../public/medkit.svg';
+import Calendar from '../../public/calendar.svg';
+import Wallet from '../../public/wallet.svg';
+import Contact from '../../public/contact.svg';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Autoplay } from 'swiper/modules';
 
 const What = () => {
+  const sliderData = [
+    {
+      id: 1,
+      title: 'Personalized Care Plans',
+      desc: 'We understand that mental health is unique to each individual. Our experts create customized care plans to address your specific needs.',
+      imageUrl: Love,
+    },
+    {
+      id: 2,
+      title: 'Affordable Options',
+      desc: 'Danicare welcomes both insured and uninsured clients. We offer competitive rates and accept cash payments to ensure access to quality mental health care for all.',
+      imageUrl: Wallet,
+    },
+    {
+      id: 3,
+      title: 'Experienced Professional',
+      desc: 'Licensed psychiatrist with years of experience and expertise to guide you on your journey to mental wellness.',
+      imageUrl: Contact,
+    },
+    {
+      id: 4,
+      title: 'Flexible Appointments',
+      desc: 'We offer convenient appointment scheduling to accommodate your busy lifestyle. Your mental health should never be compromised by a hectic schedule.',
+      imageUrl: Calendar,
+    },
+    {
+      id: 5,
+      title: 'Confidential and Supportive Environment',
+      desc: 'Your privacy is our priority. Danicare provides a safe and confidential space where you can openly discuss your concerns',
+      imageUrl: Love,
+    },
+  ];
+
   return (
-    <main className="container container-what">
-      <h1>What We Do</h1>
+    <main className={`container ${styles.containerWhat}`}>
+      <h1 className='container'>What We Do</h1>
       <Swiper
         spaceBetween={30}
         pagination={{
@@ -24,10 +54,10 @@ const What = () => {
         }}
         autoplay={{
           delay: 2500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         // scrollbar={{ draggable: true }}
-        scrollbar={{ el: ".swiper-scrollbar" }}
+        scrollbar={{ el: '.swiper-scrollbar' }}
         breakpoints={{
           300: {
             slidesPerView: 1,
@@ -37,72 +67,20 @@ const What = () => {
           },
         }}
         modules={[Autoplay, Pagination]}
-        className="mySwiper"
+        className='mySwiper'
       >
         <section>
-          <SwiperSlide>
-            <article>
-              <div>
-                <Image src={Love} alt="Love icon" />
-              </div>
-              <h4>Personalized Care Plans</h4>
-              <p>
-                We understand that mental health is unique to each individual.
-                Our experts create customized care plans to address your
-                specific needs.
-              </p>
-            </article>
-          </SwiperSlide>
-          <SwiperSlide>
-            <article>
-              <div>
-                <Image src={Wallet} alt="Wallet icon" />
-              </div>
-              <h4>Affordable Options</h4>
-              <p>
-                Danicare welcomes both insured and uninsured clients. We offer
-                competitive rates and accept cash payments to ensure access to
-                quality mental health care for all.
-              </p>
-            </article>
-          </SwiperSlide>
-          <SwiperSlide>
-            <article>
-              <div>
-                <Image src={Contact} alt="Contact icon" />
-              </div>
-              <h4>Experienced Professional</h4>
-              <p>
-                Licensed psychiatrist with years of experience and expertise to
-                guide you on your journey to mental wellness.
-              </p>
-            </article>
-          </SwiperSlide>
-          <SwiperSlide>
-            <article>
-              <div>
-                <Image src={Medkit} alt="Medkit icon" />
-              </div>
-              <h4>Confidential and Supportive Environment</h4>
-              <p>
-                Your privacy is our priority. Danicare provides a safe and
-                confidential space where you can openly discuss your concerns
-              </p>
-            </article>
-          </SwiperSlide>
-          <SwiperSlide>
-            <article>
-              <div>
-                <Image src={Calendar} alt="Calendar icon" />
-              </div>
-              <h4>Flexible Appointments</h4>
-              <p>
-                We offer convenient appointment scheduling to accommodate your
-                busy lifestyle. Your mental health should never be compromised
-                by a hectic schedule.
-              </p>
-            </article>
-          </SwiperSlide>
+          {sliderData.map(({ id, title, imageUrl, desc }) => (
+            <SwiperSlide key={id}>
+              <article className='p-3 mb-5'>
+                <figure className='col-2'>
+                  <Image src={imageUrl} alt='Love icon' />
+                </figure>
+                <h4>{title}</h4>
+                <p>{desc}</p>
+              </article>
+            </SwiperSlide>
+          ))}
         </section>
       </Swiper>
     </main>

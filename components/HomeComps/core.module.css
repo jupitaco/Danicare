@@ -2,9 +2,7 @@
   background: #f7eeea;
   padding: 114px 0;
 }
-.cores img {
-  width: 100%;
-}
+
 .cores h1 {
   color: var(--Text-primary, #333132);
   font-size: 54px;
@@ -14,11 +12,13 @@
   padding-bottom: 59px;
   text-align: center;
 }
+
 .cores .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 18px;
 }
+
 .cores h3 {
   color: var(--Light-Gray-900, #212327);
   font-family: Inter Tight;

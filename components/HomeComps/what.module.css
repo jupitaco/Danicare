@@ -1,0 +1,46 @@
+.containerWhat {
+  padding: 100px 0;
+}
+.containerWhat h1 {
+  color: var(--Text-primary, #333132);
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  padding-bottom: 30px;
+}
+
+.containerWhat article {
+  border-radius: 24px;
+}
+
+.containerWhat article:hover {
+  border-radius: 24px;
+  background: #f6f6f6;
+}
+
+.containerWhat h4 {
+  color: var(--Neutral-100, #1e2432);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.36px;
+  padding: 10px 0;
+}
+.containerWhat p {
+  color: var(--Neutral-70, #475569);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0.128px;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background: #000 !important;
+}
+
+.swiper-pagination-bullet
+  .swiper-pagination-bullet-active
+  .swiper-pagination-bullet-active-main {
+  color: #000 !important;
+  background: #000 !important;
+}

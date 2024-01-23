@@ -1,6 +1,5 @@
 .talks {
-  padding-top: 100px;
-  padding-bottom: 74px;
+  margin: 100px 0;
 }
 
 .container-talk {
@@ -10,9 +9,12 @@
   padding: 0;
 }
 
+.talks figure {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .talks img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 

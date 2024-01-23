@@ -1,22 +1,23 @@
-import psychP from "../../public/psychP.png";
-import psychBg from "../../public/psychBg.png";
-import "./psych.css";
-import Image from "next/image";
+import psychP from '../../public/psychP.png';
+import styles from './psych.module.css';
+import Image from 'next/image';
 
 const Psych = () => {
   return (
-    <main className="psy">
-      <section className="psyBg">
-        <h1>Psychiatry Tailored to Suit You</h1>
+    <main className={styles.Psych}>
+      <section
+        className={`${styles.psyBg} container d-flex flex-column text-center`}
+      >
+        <h1 className='col-12 col-md-8 mx-auto'>
+          Psychiatry Tailored to Suit You
+        </h1>
         <p>Accessible Mental Health Care for Everyone</p>
         <article>
-          <div className="P">
-            <Image src={psychP} alt="Illustration" className="ps" />
-          </div>
-          {/* <Image src={psychBg} alt="Background Illustration" /> */}
+          <figure className='P col-12 col-md-6 mx-auto'>
+            <Image src={psychP} alt='Illustration' className='ps' />
+          </figure>
         </article>
       </section>
-      <section></section>
     </main>
   );
 };
