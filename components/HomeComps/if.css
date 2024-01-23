@@ -1,0 +1,14 @@
+.ifs {
+  background: #e66926;
+}
+.ifs h1 {
+  color: var(--Color, #fff);
+  font-family: Inter Tight;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  padding-top: 41px;
+  padding-bottom: 15px;
+}

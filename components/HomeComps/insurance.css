@@ -1,0 +1,55 @@
+.insure {
+  background: #f6f6f6;
+  padding: 97px 0;
+}
+/* .insure .art1,
+.insure .art2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 88px;
+} */
+
+.iP {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.insure .iP img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.insure h1 {
+  color: var(--Light-Gray-900, #212327);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -2px;
+  padding-bottom: 10px;
+}
+.insure p {
+  color: var(--Light-Gray-900, #212327);
+  font-family: Inter Tight;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  padding-bottom: 29px;
+}
+.iIcons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 45px;
+}
+.check {
+  height: 56px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  background: var(--Primary, #fc0);
+  color: var(--Text-primary, #333132);
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+}

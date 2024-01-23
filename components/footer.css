@@ -1,0 +1,78 @@
+footer {
+  background: #323232;
+  padding: 4em 0;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-footer .let {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container-footer .let span {
+  color: var(--Color, #fff);
+  font-size: 51.75px;
+  font-weight: 700;
+  letter-spacing: -1.552px;
+}
+.container-footer h3 {
+  color: var(--Color, #fff);
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+footer h5 {
+  color: var(--Light-Gray-300, #cccfd6);
+  font-family: Inter Tight;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  padding-bottom: 16px;
+}
+.container-footer h6 {
+  color: var(--Light-Gray-300, #cccfd6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  padding-bottom: 3px;
+}
+.container-footer h2 {
+  color: var(--Secondary-Accent-Colors-Yellow, #ffcc04);
+  font-size: 18px;
+  font-weight: 500;
+}
+.container-footer h4 {
+  color: var(--Light-Gray-300, #cccfd6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  padding-top: 16px;
+  padding-bottom: 12px;
+}
+.container-footer .icons {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 24px;
+}
+.pri {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.copy p {
+  color: var(--Light-Gray-300, #cccfd6);
+  font-family: 'Inter Tight';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+}
+.copy {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,66 @@
+.hows {
+  background: url('../../public/frame.png') top center no-repeat;
+  background-size: cover;
+}
+.bgC h1 {
+  color: #000;
+  font-size: 54px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+.howPic {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.hows img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hW {
+  display: flex;
+  align-items: center;
+  padding-bottom: 12px;
+  gap: 8px;
+  padding-top: 30px;
+}
+
+.hW h4,
+.hW h5 {
+  color: #000;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 600;
+}
+.hW h4 {
+  padding-top: 6px;
+}
+.hows h6 {
+  color: #000;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0.128px;
+  width: 70%;
+}
+.hows .become {
+  height: 56px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  background: var(--Primary, #fc0);
+  color: var(--Text-primary, #333132);
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .hows {
+    background: url('../../public/frame.png') top left no-repeat;
+    background-size: cover;
+  }
+}

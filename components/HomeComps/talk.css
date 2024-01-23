@@ -1,0 +1,47 @@
+.talks {
+  padding-top: 100px;
+  padding-bottom: 74px;
+}
+
+.container-talk {
+  border-radius: 20px;
+  background: #fff6ee;
+  overflow: hidden;
+  padding: 0;
+}
+
+.talks img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.talks section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.talkW h1 {
+  color: var(--Text-primary, #333132);
+  font-size: 36px;
+  font-weight: 700;
+}
+.talkW p {
+  color: var(--Light-Gray-900, #212327);
+  font-family: Inter Tight;
+  font-size: 18px;
+  font-weight: 400;
+}
+.bookBtn {
+  display: inline-flex;
+  /* height: 56px; */
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: var(--Secondary, #e66926);
+  color: var(--Color, #fff);
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+}
