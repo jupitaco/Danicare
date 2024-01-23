@@ -17,7 +17,7 @@ const Insurance = () => {
             <p>
               Discover if your insurance covers your DaniCare care in just
               seconds, because we believe that your routine care should be
-              easily accessible and covered."
+              easily accessible and covered.
             </p>
             <div className='iIcons'>
               <Image src={Humana} alt='Humana icon' />
@@ -40,8 +40,8 @@ const Insurance = () => {
               <h1>Affordable Optons</h1>
               <p>
                 At DaniCare, we believe everyone deserves quality mental health
-                care. If you're not insured, worry not! We offer affordable cash
-                payment options tailored to your budget.
+                care. If you&apos;re not insured, worry not! We offer affordable
+                cash payment options tailored to your budget.
               </p>
             </div>
           </article>
