@@ -5,16 +5,14 @@ import Image from 'next/image';
 const Psych = () => {
   return (
     <main className={styles.Psych}>
-      <section
-        className={`${styles.psyBg} container d-flex flex-column text-center`}
-      >
+      <section className={` container d-flex flex-column text-center`}>
         <h1 className='col-12 col-md-8 mx-auto'>
           Psychiatry Tailored to Suit You
         </h1>
         <p>Accessible Mental Health Care for Everyone</p>
         <article>
-          <figure className='P col-12 col-md-6 mx-auto'>
-            <Image src={psychP} alt='Illustration' className='ps' />
+          <figure data-aos='zoom-in' className='col-12 col-md-6 mx-auto'>
+            <Image src={psychP} alt='Illustration' />
           </figure>
         </article>
       </section>

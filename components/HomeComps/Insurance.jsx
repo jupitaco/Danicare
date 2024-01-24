@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import './insurance.css';
+import styles from './insurance.module.css';
 import Humana from '../../public/humana.svg';
 import Un from '../../public/un.svg';
 import Aetna from '../../public/aetna.svg';
@@ -9,12 +9,14 @@ import Afford from '../../public/afford.png';
 
 const Insurance = () => {
   return (
-    <main className='insure'>
+    <main className={styles.insure}>
       <section className='container d-flex flex-column justify-content-between'>
-        <section className='art1 d-flex flex-column flex-md-row justify-content-between'>
+        <section
+          className={`${styles.art1} d-flex flex-column flex-md-row justify-content-between`}
+        >
           <article
             data-aos='fade-left'
-            className='iW col-12 col-md-6 order-1 order-md-0'
+            className={`${styles.iW} col-12 col-md-6 order-1 order-md-0`}
           >
             <h1>Insurance</h1>
             <p>
@@ -22,28 +24,33 @@ const Insurance = () => {
               seconds, because we believe that your routine care should be
               easily accessible and covered.
             </p>
-            <div className='iIcons'>
+            <div className={styles.iIcons}>
               <Image src={Humana} alt='Humana icon' />
               <Image src={Un} alt='United healthcare icon' />
               <Image src={Cigna} alt='Cigna icon' />
               <Image src={Aetna} alt='Aetna icon' />
             </div>
-            <button className='check'>Check your Insurance</button>
+            <button className={styles.check}>Check your Insurance</button>
           </article>
           <article
             data-aos='fade-right'
-            className='iP col-12 col-md-5 order-0 order-md-1 my-4 my-md-0'
+            className={`${styles.iP} col-12 col-md-5 order-0 order-md-1 my-4 my-md-0`}
           >
             <Image src={Insurea} alt='Insurance keyboard' />
           </article>
         </section>
-        <section className='art2 d-flex flex-column flex-md-row justify-content-between mt-5 '>
-          <article data-aos='fade-left' className='iP col-12 col-md-5'>
+        <section
+          className={`${styles.art2} d-flex flex-column flex-md-row justify-content-between mt-5`}
+        >
+          <article
+            data-aos='fade-left'
+            className={`${styles.iP} col-12 col-md-5`}
+          >
             <Image src={Afford} alt='Affordable Options' />
           </article>
           <article
             data-aos='fade-right'
-            className='iW col-12 col-md-6 d-flex  align-items-center my-5 my-md-0'
+            className={`${styles.iW} col-12 col-md-6 d-flex  align-items-center my-5 my-md-0`}
           >
             <div>
               <h1>Affordable Optons</h1>

@@ -1,30 +1,30 @@
-footer {
+.footer {
   background: #323232;
   padding: 4em 0;
 }
-.container-footer {
+.containerFooter {
   display: flex;
   justify-content: space-between;
 }
 
-.container-footer .let address {
+.containerFooter .let address {
   color: #fff;
   margin: 0.4em 0;
 }
-.container-footer .let span {
+.containerFooter .let span {
   color: var(--Color, #fff);
   font-size: 51.75px;
   font-weight: 700;
   letter-spacing: -1.552px;
 }
-.container-footer h3 {
+.containerFooter h3 {
   color: var(--Color, #fff);
   font-size: 16px;
   font-weight: 600;
   padding-bottom: 16px;
 }
 
-footer h5 {
+.footer h5 {
   color: var(--Light-Gray-300, #cccfd6);
   font-size: 14px;
   font-weight: 400;
@@ -32,19 +32,19 @@ footer h5 {
   padding-bottom: 16px;
   margin: 1em 0 !important;
 }
-.container-footer h6 {
+.containerFooter h6 {
   color: var(--Light-Gray-300, #cccfd6);
   font-size: 14px;
   font-weight: 400;
   line-height: 130%;
   padding-bottom: 3px;
 }
-.container-footer h2 a {
+.containerFooter h2 a {
   color: var(--Secondary-Accent-Colors-Yellow, #ffcc04);
   font-size: 18px;
   font-weight: 500;
 }
-.container-footer h4 {
+.containerFooter h4 {
   color: var(--Light-Gray-300, #cccfd6);
   font-size: 14px;
   font-weight: 400;
@@ -52,7 +52,7 @@ footer h5 {
   padding-top: 16px;
   padding-bottom: 12px;
 }
-.container-footer .icons {
+.containerFooter .icons {
   display: flex;
   justify-content: space-between;
   padding-right: 24px;

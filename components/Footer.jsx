@@ -1,4 +1,4 @@
-import './footer.css';
+import styles from './footer.module.css';
 import logo from '../public/footerLogo.png';
 import Image from 'next/image';
 import Facebook from '../public/facebook.svg';
@@ -13,17 +13,21 @@ const Footer = () => {
   return (
     <section>
       <If />
-      <footer>
-        <main className='container container-footer d-flex flex-column flex-md-row'>
+      <footer className={styles.footer}>
+        <main
+          className={`container ${styles.containerFooter} d-flex flex-column flex-md-row`}
+        >
           <section className='d-flex justify-content-center align-items-start'>
-            <div className='let d-flex flex-column'>
+            <div className={`${styles.let} d-flex flex-column`}>
               <Link href='/'>
                 <Image src={logo} alt='Danicare Logo' />
               </Link>
               <address>2702 ANEJO DR LAREDO TX 78054</address>
             </div>
           </section>
-          <section className='footerW d-flex flex-wrap gap-5 mt-5 mt-md-0'>
+          <section
+            className={`${styles.footerW} d-flex flex-wrap gap-5 mt-5 mt-md-0`}
+          >
             <article className=''>
               <h3>Our Solutions</h3>
               <h5>Insurance</h5>
@@ -55,7 +59,7 @@ const Footer = () => {
               </a>
             </h2>
             <h4>Socials</h4>
-            <div className='icons mt-2'>
+            <div className={`${styles.icons} mt-2`}>
               <Image src={Instagram} alt='Instagram logo' />
               <Image src={Facebook} alt='Facebook logo' />
               <Image src={Twitter} alt='Twitter logo' />
@@ -64,11 +68,11 @@ const Footer = () => {
             </div>
           </section>
         </main>
-        <section className='pri'>
+        <section className={styles.pri}>
           <h5>Privacy Policy</h5>
           <h5>Terms of Use</h5>
         </section>
-        <section className='copy'>
+        <section className={styles.copy}>
           <p>All rights reserved &copy; 2024 DaniCare</p>
         </section>
       </footer>
