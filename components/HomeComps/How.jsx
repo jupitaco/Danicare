@@ -6,7 +6,10 @@ const How = () => {
   return (
     <main className='hows py-5'>
       <article className='container d-flex flex-column flex-md-row justify-content-between'>
-        <section className='bgC col-12 col-md-4 order-1 order-md-0 '>
+        <section
+          data-aos='fade-right'
+          className='bgC col-12 col-md-4 order-1 order-md-0 '
+        >
           <h1>How it works</h1>
           <div className='hW'>
             <h4>01.</h4>
@@ -28,7 +31,10 @@ const How = () => {
             collaborative care with your provider
           </h6>
         </section>
-        <section className='howPic col-12 col-md-7 order-0 order-md-1 my-4 my-md-0'>
+        <section
+          data-aos='fade-left'
+          className='howPic col-12 col-md-7 order-0 order-md-1 my-4 my-md-0'
+        >
           <Image src={Couple} alt='Couple' />
         </section>
       </article>

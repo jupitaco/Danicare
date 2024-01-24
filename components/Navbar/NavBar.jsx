@@ -34,7 +34,9 @@ function NavBar() {
           {/* Logo */}
           <Link
             href='/'
-            className={` col-2 col-md-2 d-flex flex-row align-items-center`}
+            className={` col-4 col-md-2 d-flex flex-row align-items-center`}
+            data-aos='zoom-out'
+            data-aos-duration='1500'
           >
             <figure>
               <Image src={logo} alt='Danicare Logo' />
@@ -50,6 +52,8 @@ function NavBar() {
 
               <ul
                 className={` ${styles.navItems} d-flex flex-column flex-lg-row  col-12 justify-content-end align-items-center `}
+                data-aos='fade-right'
+                data-aos-duration='1500'
               >
                 <ul className='d-flex flex-column flex-lg-row col-10 col-lg-7  justify-content-between '>
                   {linkList.map(({ id, title, url }) => (

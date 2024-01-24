@@ -6,9 +6,9 @@ const Dolani = () => {
   return (
     <main className='container-dolani'>
       <section className='dolas d-flex flex-column flex-lg-row'>
-        <section className='dL order-1 order-lg-0 '>
+        <section className='dL order-1 order-lg-0 py-5 '>
           <h6>Our Psychiatrist</h6>
-          <h1>Dolani Ajanaku, M.D</h1>
+          <h1 className='my-4'>Dolani Ajanaku, M.D</h1>
           <p>
             Welcome to DaniCare Psychiatric Practice! Dr. Dolani Ajanaku, our
             esteemed board-certified Psychiatrist, brings a wealth of expertise

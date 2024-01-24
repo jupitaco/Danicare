@@ -2,12 +2,13 @@
   // margin: 0.9em auto;
   background: var(--mainColor);
   position: relative;
-  padding: 0.7em 0;
+  padding: 0.9em 0;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     border-radius: 0;
     width: 100%;
     margin: 0 auto;
+    padding: 1.1em 0;
   }
 
   nav {

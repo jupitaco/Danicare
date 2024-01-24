@@ -3,13 +3,13 @@
   flex-direction: column;
   align-items: center;
   background: #ffcd3233 url('../../public/psychBg.png') bottom center no-repeat;
+  padding-top: 84px;
 }
 
 .Psych h1 {
   color: #333132;
   font-size: 64px;
   letter-spacing: -2px;
-  padding-top: 84px;
   text-align: center;
   margin: 0 auto;
   line-height: 1.4;

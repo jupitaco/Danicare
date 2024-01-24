@@ -45,9 +45,9 @@ const Footer = () => {
           </section>
           <section className='mt-5 mt-md-0'>
             <h6>Shoot us an email</h6>
-            <h2>contact@danicare.com</h2>
+            <h2 className='my-2'>contact@danicare.com</h2>
             <h4>Socials</h4>
-            <div className='icons'>
+            <div className='icons mt-2'>
               <Image src={Instagram} alt='Instagram logo' />
               <Image src={Facebook} alt='Facebook logo' />
               <Image src={Twitter} alt='Twitter logo' />

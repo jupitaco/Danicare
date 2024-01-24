@@ -1,9 +1,9 @@
 .ifs {
   background: #e66926;
 }
-.ifs h1 {
+.ifs h2 {
   color: var(--Color, #fff);
-  font-family: Inter Tight;
+  font-family: var(--font-interTight);
   font-size: 24px;
   font-style: normal;
   font-weight: 600;

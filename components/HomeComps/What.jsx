@@ -7,7 +7,7 @@ import Calendar from '../../public/calendar.svg';
 import Wallet from '../../public/wallet.svg';
 import Contact from '../../public/contact.svg';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 const What = () => {
   const sliderData = [
@@ -48,9 +48,10 @@ const What = () => {
       <h1 className='container'>What We Do</h1>
       <Swiper
         spaceBetween={30}
-        pagination={{
-          dynamicBullets: true,
-          clickable: true,
+        navigation={{
+          nextEl: '.swiperBtnNext',
+          prevEl: '.swiperBtnPrev',
+          disabledClass: 'swiper-button-disabled',
         }}
         autoplay={{
           delay: 2500,
@@ -66,7 +67,7 @@ const What = () => {
             slidesPerView: 3.5,
           },
         }}
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay, Navigation, Pagination]}
         className='mySwiper'
       >
         <section>
@@ -82,6 +83,87 @@ const What = () => {
             </SwiperSlide>
           ))}
         </section>
+
+        <sevtion className='d-flex gap-5 justify-content-end col-11 mx-auto'>
+          <button className='swiperBtnNext'>
+            <svg
+              width='70'
+              height='70'
+              viewBox='0 0 70 70'
+              fill='none'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <rect
+                x='0.5'
+                y='-0.5'
+                width='68.2548'
+                height='68.2548'
+                rx='34.1274'
+                transform='matrix(1 0 0 -1 0.490356 68.2549)'
+                stroke='#333132'
+              />
+              <path
+                d='M44.5459 34.6275H25.6897'
+                stroke='#333132'
+                strokeWidth='2'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+              />
+              <path
+                d='M35.1178 44.0555L25.6897 34.6275L35.1178 25.1994'
+                stroke='#333132'
+                strokeWidth='2'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+              />
+            </svg>
+          </button>
+          <button className='swiperBtnPrev'>
+            <svg
+              width='70'
+              height='70'
+              viewBox='0 0 70 70'
+              fill='none'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <rect
+                x='69.5'
+                y='68.7549'
+                width='68.2548'
+                height='68.2548'
+                rx='34.1274'
+                transform='rotate(-180 69.5 68.7549)'
+                stroke='#333132'
+              />
+              <g clip-path='url(#clip0_465_19450)'>
+                <path
+                  d='M25.9445 34.6275H44.8006'
+                  stroke='#333132'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                />
+                <path
+                  d='M35.3726 44.0555L44.8006 34.6275L35.3726 25.1994'
+                  stroke='#333132'
+                  strokeWidth='2'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                />
+              </g>
+              <defs>
+                <clipPath id='clip0_465_19450'>
+                  <rect
+                    width='32'
+                    height='32'
+                    fill='white'
+                    transform='matrix(0.707107 -0.707107 -0.707107 -0.707107 35.3726 57.2549)'
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+        </sevtion>
       </Swiper>
     </main>
   );

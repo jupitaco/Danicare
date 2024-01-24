@@ -58,14 +58,14 @@ p,
 figure,
 small,
 address {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 ul,
 li {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
   list-style: none;
 }
 
@@ -133,4 +133,9 @@ h1 {
   p {
     font-size: 0.9rem !important;
   }
+}
+
+.swiper-button-disabled {
+  opacity: 0.5;
+  pointer-events: none;
 }
