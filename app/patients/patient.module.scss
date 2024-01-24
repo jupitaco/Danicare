@@ -1,0 +1,12 @@
+.patient {
+  padding: 5em 0;
+  .inputWrapper {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 900px) {
+    .inputWrapper {
+      width: 48%;
+    }
+  }
+}
