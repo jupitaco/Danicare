@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   background-position: right;
 }
-.container-dolani img {
+.containerDolani img {
   /* width: 100%; */
   width: 416px;
   height: auto;
@@ -23,7 +23,7 @@
   padding-right: 80px;
   padding-top: 150px;
 }
-.container-dolani h6 {
+.containerDolani h6 {
   padding-top: 97px;
   color: var(--Light-Gray-900, #212327);
   font-family: Inter Tight;
@@ -32,7 +32,7 @@
   line-height: 120%;
   padding-bottom: 10px;
 }
-.container-dolani h1 {
+.containerDolani h1 {
   color: var(--Light-Gray-900, #212327);
   font-size: 48px;
   font-weight: 700;
@@ -40,7 +40,7 @@
   letter-spacing: -2px;
   padding-bottom: 19px;
 }
-.container-dolani p {
+.containerDolani p {
   color: var(--Light-Gray-900, #212327);
   font-family: Inter Tight;
   font-size: 20px;
@@ -49,13 +49,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container-dolani img {
+  .containerDolani img {
     width: 100%;
     height: 100%;
     margin: 0 auto;
   }
 
-  .container-dolani h6 {
+  .containerDolani h6 {
     padding-top: 10px;
   }
 

@@ -16,10 +16,11 @@ const Footer = () => {
       <footer>
         <main className='container container-footer d-flex flex-column flex-md-row'>
           <section className='d-flex justify-content-center align-items-start'>
-            <div className='let'>
+            <div className='let d-flex flex-column'>
               <Link href='/'>
                 <Image src={logo} alt='Danicare Logo' />
               </Link>
+              <address>2702 ANEJO DR LAREDO TX 78054</address>
             </div>
           </section>
           <section className='footerW d-flex flex-wrap gap-5 mt-5 mt-md-0'>
@@ -29,6 +30,7 @@ const Footer = () => {
               <h5>Treatment</h5>
               <h5>Our Psychiatrist</h5>
               <h5>Patients</h5>
+              <h5>Refer a Patient</h5>
             </article>
             <article className=''>
               <h3>Resources</h3>
@@ -36,6 +38,7 @@ const Footer = () => {
               <h5>Blog</h5>
               <h5>Anxiety Test</h5>
               <h5>Depression Test</h5>
+              <h5>ADHD Test</h5>
             </article>
             <article className=''>
               <h3>Company</h3>
@@ -45,7 +48,12 @@ const Footer = () => {
           </section>
           <section className='mt-5 mt-md-0'>
             <h6>Shoot us an email</h6>
-            <h2 className='my-2'>contact@danicare.com</h2>
+            <h2 className='my-2'>
+              {' '}
+              <a href='mailto: contact@mydanicare.com' className='my-2'>
+                contact@mydanicare.com
+              </a>
+            </h2>
             <h4>Socials</h4>
             <div className='icons mt-2'>
               <Image src={Instagram} alt='Instagram logo' />

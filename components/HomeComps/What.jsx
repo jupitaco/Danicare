@@ -135,7 +135,7 @@ const What = () => {
                 transform='rotate(-180 69.5 68.7549)'
                 stroke='#333132'
               />
-              <g clip-path='url(#clip0_465_19450)'>
+              <g clipPath='url(#clip0_465_19450)'>
                 <path
                   d='M25.9445 34.6275H44.8006'
                   stroke='#333132'

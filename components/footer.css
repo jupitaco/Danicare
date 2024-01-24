@@ -7,10 +7,9 @@ footer {
   justify-content: space-between;
 }
 
-.container-footer .let {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.container-footer .let address {
+  color: #fff;
+  margin: 0.4em 0;
 }
 .container-footer .let span {
   color: var(--Color, #fff);
@@ -40,7 +39,7 @@ footer h5 {
   line-height: 130%;
   padding-bottom: 3px;
 }
-.container-footer h2 {
+.container-footer h2 a {
   color: var(--Secondary-Accent-Colors-Yellow, #ffcc04);
   font-size: 18px;
   font-weight: 500;

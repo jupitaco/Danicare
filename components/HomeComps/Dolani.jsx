@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import Dani from '../../public/dolani.png';
-import './dolani.css';
+import styles from './dolani.module.css';
 
 const Dolani = () => {
   return (
-    <main className='container-dolani'>
-      <section className='dolas d-flex flex-column flex-lg-row'>
-        <section className='dL order-1 order-lg-0 py-5 '>
+    <main className={styles.containerDolani}>
+      <section className={`${styles.dolas}  d-flex flex-column flex-lg-row`}>
+        <section className={`${styles.dL} order-1 order-lg-0 py-5 `}>
           <h6>Our Psychiatrist</h6>
           <h1 className='my-4'>Dolani Ajanaku, M.D</h1>
           <p>
@@ -17,9 +17,7 @@ const Dolani = () => {
             background, including a B.A. in Biological Sciences from Rutgers
             University and an M.D. from Rutgers University School of Medicine,
             Dr. Ajanaku is dedicated to providing personalized psychiatric care.
-          </p>
-          <br />
-          <p>
+            <br /> <br />
             Having completed General Psychiatry Residency at USF/Stony Brook
             University and advanced training in Child and Adolescent Psychiatry
             at Montefiore Medical Center in Bronx, NY, Dr. Ajanaku specializes
@@ -28,22 +26,18 @@ const Dolani = () => {
             encompassing meticulous psychiatric evaluation, suitable medical
             assessments, personalized follow-up sessions, discussions on
             lifestyle adjustments, and adept medication management.
-          </p>
-          <br />
-          <p>
+            <br /> <br />
             Beyond the credentials, DaniCare understands the diverse needs of
             our clients, serving a wide scope and coverage. Mental well-being is
             our top priority, and DaniCare is committed to creating a warm and
             supportive environment for psychiatric care.
-          </p>
-          <br />
-          <p>
+            <br /> <br />
             Thank you for considering DaniCare as your partner in mental health.
             DaniCare looks forward to supporting individuals on the path to a
             healthier and happier life
           </p>
         </section>
-        <section className='dR order-0 order-lg-1 '>
+        <section className={`${styles.dR} order-0 order-lg-1`}>
           <Image src={Dani} alt='Dolani Ajanaku' />
         </section>
       </section>

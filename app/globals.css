@@ -19,7 +19,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: var(--black);
-  font-family: var(--font-interTight);
+  font-family: var(--font-interTight), sans-serif;
   overflow-x: hidden;
 }
 
@@ -58,14 +58,14 @@ p,
 figure,
 small,
 address {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
 }
 
-ul,
-li {
-  margin: 0 !important;
-  padding: 0 !important;
+ol,
+ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -92,7 +92,6 @@ h1 {
 
 .notActive a {
   color: #323232;
-  font-family: Inter Tight;
   font-size: 16px;
   font-weight: 500;
 }

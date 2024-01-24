@@ -1,11 +1,11 @@
 'use client';
-import './testimonial.css';
+import styles from './testimonial.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 
 const Testimonial = () => {
   return (
-    <main className='testi'>
+    <main className={styles.testi}>
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -19,10 +19,10 @@ const Testimonial = () => {
         className='mySwiper'
       >
         <SwiperSlide>
-          <article className='testi'>
+          <article className={styles.testi}>
             <h1>Testimonials</h1>
             <p>
-              “I recommend Talkiatry to anyone that will listen. The benefits
+              “I recommend DaniCare to anyone that will listen. The benefits
               this network has provided me in such a short time are priceless
               and immeasurable.”
             </p>
@@ -30,10 +30,10 @@ const Testimonial = () => {
           </article>
         </SwiperSlide>
         <SwiperSlide>
-          <article className='testi'>
+          <article className={styles.testi}>
             <h1>Testimonials</h1>
             <p>
-              “I recommend Talkiatry to anyone that will listen. The benefits
+              “I recommend DaniCare to anyone that will listen. The benefits
               this network has provided me in such a short time are priceless
               and immeasurable.”
             </p>
@@ -41,10 +41,10 @@ const Testimonial = () => {
           </article>
         </SwiperSlide>
         <SwiperSlide>
-          <article className='testi'>
+          <article className={styles.testi}>
             <h1>Testimonials</h1>
             <p>
-              “I recommend Talkiatry to anyone that will listen. The benefits
+              “I recommend DaniCare to anyone that will listen. The benefits
               this network has provided me in such a short time are priceless
               and immeasurable.”
             </p>
@@ -103,7 +103,7 @@ const Testimonial = () => {
                 transform='rotate(-180 69.5 68.7549)'
                 stroke='#E66926'
               />
-              <g clip-path='url(#clip0_465_19450)'>
+              <g clipPath='url(#clip0_465_19450)'>
                 <path
                   d='M25.9445 34.6275H44.8006'
                   stroke='#E66926'

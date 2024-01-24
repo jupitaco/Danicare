@@ -13,8 +13,10 @@ const Talk = () => {
         <article className='talkW col-12 col-md-7 d-flex align-items-center py-5 px-3'>
           <div>
             <h1>Talk to a DaniCare Psychiatrist</h1>
-            <p>Our Psychiatrist are always ready to talk to you</p>
-            <button className='bookBtn mt-1'>Book Appointment</button>
+            <p className='mt-2'>
+              Our Psychiatrist are always ready to talk to you
+            </p>
+            <button className='bookBtn mt-5'>Book Appointment</button>
           </div>
         </article>
       </section>

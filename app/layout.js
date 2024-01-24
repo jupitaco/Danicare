@@ -1,5 +1,4 @@
 import AOSAnimation from '@/utils/AosInit';
-import './globals.css';
 import Footer from '@/components/Footer';
 import NavBar from '@/components/Navbar/NavBar';
 import { Inter_Tight, Roboto_Serif } from 'next/font/google';
