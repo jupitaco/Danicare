@@ -30,32 +30,74 @@ const Footer = () => {
           >
             <article className=''>
               <h3>Our Solutions</h3>
-              <h5>Insurance</h5>
-              <h5>Treatment</h5>
-              <h5>Our Psychiatrist</h5>
-              <h5>Patients</h5>
-              <h5>Refer a Patient</h5>
+              <ul>
+                <li>
+                  {' '}
+                  <Link href='/insurance'>Insurance</Link>
+                </li>
+                <li>
+                  {' '}
+                  <Link href='/treatment'>Treatment</Link>
+                </li>
+                <li>
+                  {' '}
+                  <Link href='/our-psych'>Our Psychiatrist</Link>
+                </li>
+                <li>
+                  {' '}
+                  <Link href='/patients'>Patients</Link>
+                </li>
+                <li>
+                  {' '}
+                  <Link href='/refer'>Refer a Patient</Link>
+                </li>
+              </ul>
             </article>
             <article className=''>
               <h3>Resources</h3>
-              <h5>FAQs</h5>
-              <h5>Blog</h5>
-              <h5>Anxiety Test</h5>
-              <h5>Depression Test</h5>
-              <h5>ADHD Test</h5>
+              <ul>
+                <li>
+                  {' '}
+                  <Link href='/faqs'>FAQs</Link>
+                </li>
+                <li>
+                  {' '}
+                  <Link href='blog'>Blog</Link>
+                </li>
+                <li>
+                  {' '}
+                  <Link href='#'>Anxiety Test</Link>
+                </li>
+                <li>
+                  {' '}
+                  <Link href='#'>Depression Test</Link>
+                </li>
+                <li>
+                  {' '}
+                  <Link href='#'>ADHD Test</Link>
+                </li>
+              </ul>
             </article>
             <article className=''>
               <h3>Company</h3>
-              <h5>About Us</h5>
-              <h5>Contact Us</h5>
+              <ul>
+                <li>
+                  {' '}
+                  <Link href='about-us'>About Us</Link>
+                </li>
+                <li>
+                  {' '}
+                  <Link href='/contact-us'>Contact Us</Link>
+                </li>
+              </ul>
             </article>
           </section>
           <section className='mt-5 mt-md-0'>
             <h6>Shoot us an email</h6>
             <h2 className='my-2'>
               {' '}
-              <a href='mailto: contact@mydanicare.com' className='my-2'>
-                contact@mydanicare.com
+              <a href='mailto: hello@mydanicare.com' className='my-2'>
+                hello@mydanicare.com
               </a>
             </h2>
             <h4>Socials</h4>
@@ -69,8 +111,8 @@ const Footer = () => {
           </section>
         </main>
         <section className={styles.pri}>
-          <h5>Privacy Policy</h5>
-          <h5>Terms of Use</h5>
+          <Link href='/privacy'>Privacy Policy</Link>
+          <Link href='/tos'>Terms of Use</Link>
         </section>
         <section className={styles.copy}>
           <p>All rights reserved &copy; 2024 DaniCare</p>

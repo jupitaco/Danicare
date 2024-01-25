@@ -19,7 +19,7 @@ export default function Help() {
       </section>
 
       <section className=' col-11 col-md-8 mx-auto'>
-        <FaqComps />
+        <FaqComps title='' />
       </section>
     </main>
   );

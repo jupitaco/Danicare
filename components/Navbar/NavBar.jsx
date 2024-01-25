@@ -23,7 +23,7 @@ function NavBar() {
     { id: 3, title: 'Insurance', url: '/insurance' },
     { id: 4, title: ' Our Psychiatrist', url: '/our-psych' },
     { id: 5, title: 'Help', url: '/help' },
-    { id: 6, title: ' About us', url: 'about-us' },
+    { id: 6, title: ' About us', url: '/about-us' },
   ];
   return (
     <div>

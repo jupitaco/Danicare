@@ -118,7 +118,7 @@ export default function Treatment() {
       </section>
 
       <section className=' col-11 col-md-8 mx-auto'>
-        <FaqComps />
+        <FaqComps title='Frequently Asked Questions' />
       </section>
     </main>
   );

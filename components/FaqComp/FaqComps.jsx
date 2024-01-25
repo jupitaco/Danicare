@@ -4,7 +4,7 @@ import { faqData } from '../AllData';
 import styles from './Faq.module.scss';
 import Accordion from './Accordion/Accordion';
 
-const FaqComps = () => {
+const FaqComps = ({ title, subTitle }) => {
   const [toggle, setToggle] = useState({ [1]: true });
 
   const toggleAccordion = (id) => {
@@ -15,7 +15,8 @@ const FaqComps = () => {
   return (
     <main className={styles.faq}>
       <hgroup className=' mt-5 text-center '>
-        <h1>Frequently Asked Questions</h1>
+        <h1>{title}</h1>
+        <p className='my-2'>{subTitle}</p>
       </hgroup>
 
       <section

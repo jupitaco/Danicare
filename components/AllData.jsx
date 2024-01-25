@@ -124,8 +124,8 @@ export const faqData = [
     id: 6,
     question: 'What conditions does DaniCare treat?',
     desc: (
-      <p>
-        We specialize in:
+      <>
+        <p>We specialize in:</p>
         <ul className='my-3'>
           <li>Anxiety</li>
           <li>ADHD</li>
@@ -136,7 +136,7 @@ export const faqData = [
           <li>Bipolar Disorder</li>
           <li>Child & Adolescence</li>
         </ul>
-      </p>
+      </>
     ),
   },
   {

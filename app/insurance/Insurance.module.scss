@@ -1,0 +1,77 @@
+.insurance {
+  .hero {
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    padding: 5em 0;
+    background: var(--pryColor) url('../../public/patternBG.png') bottom center
+      no-repeat;
+    background-size: contain;
+  }
+
+  .iIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 45px;
+  }
+
+  .iIcons img {
+    width: 25%;
+  }
+
+  small {
+    font-style: italic;
+  }
+
+  .findSection {
+    .find {
+      border-radius: 16px;
+      background: #fff0ce;
+      padding: 3em 1em;
+      width: 100%;
+
+      h4 {
+        font-family: var(--font-robotoSerif);
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin: 1em 0;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .iIcons img {
+      width: 13%;
+    }
+    .findSection {
+      .find {
+        border-radius: 16px;
+        background: #fff0ce;
+        width: 48%;
+        padding: 3em 1.6em;
+
+        h4 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .hero {
+      padding: 9em 0;
+      background: var(--pryColor) url('../../public/patternBG.png') bottom
+        center no-repeat;
+      background-size: contain;
+    }
+
+    .iIcons img {
+      width: 13%;
+    }
+  }
+}
