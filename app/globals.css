@@ -5,7 +5,10 @@
   --container-width-lg: 90%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+  --pryColor: #ffcc00;
   --secColor: #e66926;
+  --white: #fff;
+  --black: #323232;
 }
 
 * {
@@ -79,8 +82,9 @@ h1 {
   font-weight: 700 !important;
 }
 
-p {
-  font-size: 1.3rem;
+p,
+li {
+  font-size: 1.1rem;
   font-weight: 300;
 }
 
@@ -99,7 +103,14 @@ input::placeholder {
   border-radius: 30px;
   background: var(--secColor);
   padding: 0.8em 1.3em;
-  color: #fff;
+  color: var(--white);
+}
+
+.sec-btn {
+  border-radius: 30px;
+  background: var(--pryColor);
+  padding: 0.8em 1.3em;
+  color: var(--black);
 }
 
 .container {
@@ -121,11 +132,6 @@ input::placeholder {
   color: #323232;
   font-size: 16px;
   font-weight: 500;
-}
-
-.notActive a.active {
-  font-weight: 700;
-  color: #022a1e;
 }
 
 .notActive a:hover {

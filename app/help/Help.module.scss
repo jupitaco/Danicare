@@ -1,0 +1,23 @@
+.help {
+  .hero {
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    padding: 5em 0;
+    background: var(--pryColor) url('../../public/patternBG.png') bottom center
+      no-repeat;
+    background-size: contain;
+  }
+
+  @media screen and (min-width: 900px) {
+    .hero {
+      padding: 9em 0;
+      background: var(--pryColor) url('../../public/patternBG.png') bottom
+        center no-repeat;
+      background-size: contain;
+    }
+  }
+}

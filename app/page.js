@@ -8,6 +8,8 @@ import Talk from '@/components/HomeComps/Talk';
 import Testimonial from '@/components/HomeComps/Testimonial';
 import What from '@/components/HomeComps/What';
 
+import styles from './Home.module.css';
+
 export default function Home() {
   return (
     <>
@@ -17,7 +19,7 @@ export default function Home() {
       <Talk />
       <Insurance />
       <How />
-      <Our />
+      <Our styles={styles} />
       <Testimonial />
       <Dolani />
     </>

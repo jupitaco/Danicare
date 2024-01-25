@@ -1,9 +1,8 @@
 import React from 'react';
-import styles from './our.module.css';
 
-const Our = () => {
+const Our = ({ styles, sty }) => {
   return (
-    <main className={styles.our}>
+    <main className={`${sty?.off} ${styles.our} `}>
       <section className='container'>
         <h1>Our areas of expertise</h1>
         <article className='d-flex flex-wrap gap-2'>

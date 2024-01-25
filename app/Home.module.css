@@ -2,6 +2,7 @@
   background: var(--Primary, #fc0);
   padding: 81px 0;
 }
+
 .our h1 {
   color: var(--Color, #fff);
   text-align: center;

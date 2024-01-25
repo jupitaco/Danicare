@@ -1,0 +1,23 @@
+.treatment {
+  .treatmentText {
+    padding: 0 5em;
+  }
+
+  .off {
+    background: var(--secColor) !important;
+  }
+
+  .care {
+    background: #fdfaf4;
+
+    small {
+      font-style: italic;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .treatmentText {
+      padding: 0;
+    }
+  }
+}
