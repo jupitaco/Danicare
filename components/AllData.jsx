@@ -1,5 +1,61 @@
 import blogImage from '@/public/blogImage.png';
 
+export const contactForm = (val) => {
+  return [
+    {
+      id: 'firstName',
+      type: 'text',
+      label: 'First Name',
+      value: val?.firstName,
+      placeholder: 'First Name',
+      required: true,
+    },
+    {
+      id: 'lastName',
+      type: 'text',
+      label: 'Last Name',
+      value: val?.lastName,
+      placeholder: 'Last Name',
+      required: true,
+    },
+
+    {
+      id: 'Email',
+      type: 'email',
+      label: 'Email',
+      value: val?.email,
+      placeholder: 'Email',
+      required: true,
+    },
+
+    {
+      id: 'company',
+      label: 'company',
+      type: 'text',
+      value: val?.company,
+      placeholder: 'Company',
+      required: false,
+    },
+    {
+      id: 'jobTitle',
+      type: 'text',
+      label: 'Job Title',
+      value: val?.jobTitle,
+      placeholder: 'Job Title',
+      required: true,
+    },
+    {
+      id: 'message',
+      type: 'text',
+      label: 'message',
+      value: val?.message,
+      placeholder: 'Message',
+      textarea: true,
+      required: true,
+    },
+  ];
+};
+
 export const Inputs = (val) => {
   return [
     {

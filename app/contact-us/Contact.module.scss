@@ -1,0 +1,31 @@
+.contactUs {
+  h3 {
+    font-family: var(--font-robotoSerif);
+    font-weight: 600;
+  }
+
+  .hero {
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    padding: 5em 0;
+    background: var(--secColor) url('../../public/patternBG.png') bottom center
+      no-repeat;
+    background-size: contain;
+
+    color: var(--white);
+
+    a {
+      color: var(--white);
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .hero {
+      padding: 9em 0;
+    }
+  }
+}
