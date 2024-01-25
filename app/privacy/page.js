@@ -310,7 +310,7 @@ export default function Privacy() {
           We have made significant efforts to accurately display the colors of
           any products or content that may appear on the Platform. <br />
           However, as the actual colors you see will depend on your monitor, we
-          cannot guarantee that your monitor's display of any color will be
+          cannot guarantee that your monitor&apos;s display of any color will be
           accurate. <br />
           <br />
           13. Typographical Errors and Incorrect Pricing In the event a Service
@@ -335,13 +335,14 @@ export default function Privacy() {
           copyrighted work listed in item #1. <br />
           3. An address, telephone number, and an email address where the
           alleged infringing party can contact you. <br />
-          4. The following statement: "I have a good faith belief that use of
-          the copyrighted materials described above as allegedly infringing is
-          not authorized by the copyright owner, its agent, or the law." <br />
-          5. The following statement: "I swear, under penalty of perjury, that
-          the information in the notification is accurate and that I am the
+          4. The following statement: &quot;I have a good faith belief that use
+          of the copyrighted materials described above as allegedly infringing
+          is not authorized by the copyright owner, its agent, or the law.&quot;{' '}
+          <br />
+          5. The following statement: &quot;I swear, under penalty of perjury,
+          that the information in the notification is accurate and that I am the
           copyright owner or am authorized to act on behalf of the owner of an
-          exclusive right that is allegedly infringed." <br />
+          exclusive right that is allegedly infringed.&quot; <br />
           6. Your electronic or physical signature. Talkiatry has registered a
           designated agent with the Copyright Office pursuant to 17 U.S.C.
           512(c). <br />
