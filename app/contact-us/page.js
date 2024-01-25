@@ -4,7 +4,7 @@ import { IoMailOutline, IoPhonePortraitOutline } from 'react-icons/io5';
 import { CiLocationOn } from 'react-icons/ci';
 import Image from 'next/image';
 import contact from '@/public/contact.png';
-import { Inputs, contactForm } from '@/components/AllData';
+import { contactForm } from '@/components/AllData';
 
 export default function ContactUs() {
   return (
@@ -63,14 +63,16 @@ export default function ContactUs() {
             ({ id, type, label, placeholder, required, textarea }) => (
               <>
                 {textarea ? (
-                  <textarea
-                    name={id}
-                    id={id}
-                    cols='30'
-                    rows='10'
-                    placeholder={placeholder}
-                    className='form-control'
-                  ></textarea>
+                  <div key={id}>
+                    <textarea
+                      name={id}
+                      id={id}
+                      cols='30'
+                      rows='10'
+                      placeholder={placeholder}
+                      className='form-control'
+                    ></textarea>
+                  </div>
                 ) : (
                   <div key={id} className={styles.inputWrapper}>
                     {/* <label htmlFor={label}> {label}</label> */}
