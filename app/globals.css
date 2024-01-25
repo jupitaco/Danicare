@@ -78,6 +78,7 @@ html {
 }
 
 h1 {
+  font-size: 4rem;
   font-family: var(--font-robotoSerif);
   font-weight: 700 !important;
 }
@@ -90,7 +91,7 @@ li {
 
 label {
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 input::placeholder {
@@ -159,7 +160,7 @@ input::placeholder {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   p {

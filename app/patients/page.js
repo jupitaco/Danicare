@@ -28,7 +28,7 @@ export default function Patients() {
               <input
                 id={id}
                 type={type}
-                placeholder={placeholder}
+                // placeholder={placeholder}
                 required={required}
                 className='form-control'
               />

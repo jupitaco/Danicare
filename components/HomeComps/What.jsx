@@ -45,7 +45,7 @@ const What = () => {
 
   return (
     <main className={`container ${styles.containerWhat}`}>
-      <h1 className='container'>What We Do</h1>
+      <h1 className=''>What We Do</h1>
       <Swiper
         spaceBetween={30}
         navigation={{
