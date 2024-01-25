@@ -1,0 +1,48 @@
+.blog {
+  margin: 0 auto;
+
+  .hero {
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    padding: 5em 0;
+    background: var(--pryColor) url('../../public/patternBG.png') bottom center
+      no-repeat;
+    background-size: contain;
+  }
+
+  .blogCardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 38px;
+
+    .blogCard {
+      small {
+        color: #808899;
+        margin: 0.5em 0;
+      }
+
+      h5 {
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+
+      p {
+        color: var(--secColor);
+        font-weight: 600;
+      }
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .hero {
+      padding: 9em 0;
+      background: var(--pryColor) url('../../public/patternBG.png') bottom
+        center no-repeat;
+      background-size: contain;
+    }
+  }
+}

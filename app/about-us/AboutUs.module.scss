@@ -1,0 +1,70 @@
+.about {
+  h2 {
+    font-family: var(--font-robotoSerif);
+    font-weight: 600;
+  }
+
+  .hero {
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    padding: 5em 0;
+    background: #fff0ce;
+  }
+
+  figure {
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .howItWorks {
+    padding: 2em 1em;
+    background: #f6f6f6;
+
+    .howItWorksCard {
+      background: var(--white);
+      padding: 1em;
+      border-radius: 24px;
+      color: var(--black);
+
+      h4 {
+        font-family: var(--font-robotoSerif);
+        font-weight: 700;
+        color: var(--black);
+        margin: 1em 0;
+      }
+
+      .numList {
+        display: flex;
+        place-items: center;
+        div {
+          color: var(--white);
+          padding: 1em 1.7em;
+          border-radius: 12px;
+          background: var(--secColor);
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    figure {
+      height: 500px;
+
+      img {
+        object-fit: cover;
+      }
+    }
+
+    .howItWorks {
+      padding: 4em 3em;
+    }
+  }
+}
