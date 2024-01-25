@@ -6,7 +6,7 @@ export default function Help() {
   return (
     <main className={styles.help}>
       <section className={styles.hero}>
-        <article className='container'>
+        <article className='container g-0'>
           <h1>How can we help?</h1>
           <div className='col-12 col-md-7 my-3'>
             <input

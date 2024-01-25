@@ -8,7 +8,7 @@ export default function AboutUs() {
   return (
     <main className={styles.about}>
       <section className={styles.hero}>
-        <article className='container d-flex flex-column'>
+        <article className='container g-0 d-flex flex-column'>
           <div className='col-12 col-md-8 mx-auto text-center my-3'>
             <h1>Psychiatry transformed for everyone</h1>
 
@@ -23,7 +23,7 @@ export default function AboutUs() {
         </article>
       </section>
 
-      <section className='container py-5'>
+      <section className='container g-0 py-5'>
         <figure data-aos='zoom-in'>
           <Image src={aboutB} alt='Danicare about us image' />
         </figure>
@@ -31,7 +31,7 @@ export default function AboutUs() {
 
       <section className={styles.howItWorks}>
         <h2 className='my-4 text-center'>What we stand for</h2>
-        <article className={`cards  container `}>
+        <article className={`cards  container g-0 `}>
           <div data-aos='fade-right' className={`${styles.howItWorksCard} `}>
             <div className={styles.numList}>
               <div>

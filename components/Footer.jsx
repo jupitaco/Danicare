@@ -15,7 +15,7 @@ const Footer = () => {
       <If />
       <footer className={styles.footer}>
         <main
-          className={`container ${styles.containerFooter} d-flex flex-column flex-md-row`}
+          className={`container g-0 ${styles.containerFooter} d-flex flex-column flex-md-row`}
         >
           <section className='d-flex justify-content-center align-items-start'>
             <div className={`${styles.let} d-flex flex-column`}>
@@ -114,6 +114,7 @@ const Footer = () => {
           <Link href='/privacy'>Privacy Policy</Link>
           <Link href='/tos'>Terms of Use</Link>
         </section>
+        <hr className='container mb-4' />
         <section className={styles.copy}>
           <p>All rights reserved &copy; 2024 DaniCare</p>
         </section>

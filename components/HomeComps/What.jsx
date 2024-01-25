@@ -44,7 +44,7 @@ const What = () => {
   ];
 
   return (
-    <main className={`container ${styles.containerWhat}`}>
+    <main className={`container g-0 ${styles.containerWhat}`}>
       <h1 className=''>What We Do</h1>
       <Swiper
         spaceBetween={30}

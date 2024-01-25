@@ -8,7 +8,7 @@ function Blog() {
   return (
     <main className={` ${styles.blog}  d-flex flex-column `}>
       <section className={styles.hero}>
-        <article className='container'>
+        <article className='container g-0'>
           <h1>Blog</h1>
 
           <p className='my-2'>

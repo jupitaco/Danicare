@@ -16,11 +16,11 @@ export default function Treatment() {
       >
         <article
           data-aos='fade-right'
-          className={`${styles.treatmentText} order-1 order-lg-0 col-12 col-lg-5 d-flex flex-column my-5 my-lg-0`}
+          className={`${styles.treatmentText} order-1 order-lg-0 col-12 col-lg-7 d-flex flex-column my-5 my-lg-0`}
         >
           <div>
             <h1>Psychiatric care that assists you in achieving equilibrium.</h1>
-            <p className='my-3'>
+            <p className='my-3 col-12 col-md-9'>
               Our clinical team addresses prevalent mental health conditions
               through a combination of medication management and therapy during
               virtual visits.
@@ -36,7 +36,7 @@ export default function Treatment() {
         </article>
         <article
           data-aos='fade-left'
-          className={`order-0 order-lg-1 col-12 col-lg-6`}
+          className={`order-0 order-lg-1 col-12 col-lg-5`}
         >
           <Image src={treatment} alt='Danicare Treatment' />
         </article>
@@ -47,20 +47,20 @@ export default function Treatment() {
       <section
         className={`${styles.care} pt-5 d-flex flex-column justify-content-center`}
       >
-        <section className={` container d-flex flex-column pt-5`}>
+        <section className={` container g-0  d-flex flex-column pt-5`}>
           <article
             className={`  d-flex flex-column flex-md-row align-items-center justify-content-between my-5`}
           >
-            <article data-aos='fade-left' className={` col-12 col-md-6`}>
+            <article data-aos='fade-left' className={` col-12 col-md-5`}>
               <Image src={personalCare} alt='Danicare Treatment' />
             </article>
             <article
               data-aos='fade-right'
-              className={` col-12 col-md-5 d-flex flex-column my-5 my-md-0`}
+              className={` col-12 col-md-6 d-flex flex-column my-5 my-md-0`}
             >
               <div>
                 <h1>Personalised care</h1>
-                <p className='my-3'>
+                <p className='my-3 col-12 col-md-8'>
                   Our psychiatrists customize your care based on what you need
                   and want from treatment. If additional therapy will help you,
                   you can work with a psychiatrist-therapist team who&apos;ll
@@ -81,11 +81,11 @@ export default function Treatment() {
           >
             <article
               data-aos='fade-right'
-              className={`order-1 order-lg-0 col-12 col-md-5 d-flex flex-column my-5 my-md-0`}
+              className={`order-1 order-lg-0 col-12 col-md-6 d-flex flex-column my-5 my-md-0`}
             >
               <div>
                 <h1>Real relationships</h1>
-                <p className='my-3'>
+                <p className='my-3 col-12 col-md-8'>
                   At Danicare, we believe in the transformative power of genuine
                   connections. Our practice goes beyond traditional psychiatry
                   by embracing the importance of real relationships in your
@@ -105,7 +105,7 @@ export default function Treatment() {
             </article>
             <article
               data-aos='fade-left'
-              className={`order-0 order-lg-1 col-12 col-md-6`}
+              className={`order-0 order-lg-1 col-12 col-md-5 `}
             >
               <Image src={relationship} alt='Danicare Treatment' />
             </article>

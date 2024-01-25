@@ -7,7 +7,7 @@ const Talk = () => {
   return (
     <main className={styles.talks}>
       <section
-        className={`container ${styles.containerTalk} d-flex flex-column flex-md-row justify-content-between col-11 col-md-12`}
+        className={`container g-0 ${styles.containerTalk} d-flex flex-column flex-md-row justify-content-between col-11 col-md-12`}
       >
         <figure className='col-12 col-md-4'>
           <Image src={Tal} alt='Man Writing' />

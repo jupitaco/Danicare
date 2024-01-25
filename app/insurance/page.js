@@ -13,7 +13,7 @@ export default function Insurance() {
   return (
     <main className={styles.insurance}>
       <section className={styles.hero}>
-        <article className='container d-flex flex-column flex-md-row justify-content-between align-items-start'>
+        <article className='container g-0 d-flex flex-column flex-md-row justify-content-between align-items-start'>
           <div className='col-12 col-md-5'>
             <h1>Insurance accepted by DaniCare</h1>
             <p className='my-3'>
@@ -69,7 +69,7 @@ export default function Insurance() {
       </section>
 
       <section
-        className={`${styles.findSection} d-flex flex-wrap gap-3 container my-5`}
+        className={`${styles.findSection} d-flex flex-wrap gap-3 container g-0 my-5`}
       >
         <article
           data-aos='fade-left'

@@ -10,7 +10,7 @@ export default function ContactUs() {
   return (
     <main className={styles.contactUs}>
       <section className={styles.hero}>
-        <article className='container d-flex flex-column flex-lg-row justify-content-between'>
+        <article className='container g-0 d-flex flex-column flex-lg-row justify-content-between'>
           <figure className='col-12 col-lg-5'>
             <Image src={contact} alt='' />
           </figure>

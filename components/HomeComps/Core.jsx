@@ -13,7 +13,7 @@ const Core = () => {
 
   return (
     <main className={styles.cores}>
-      <section className={`container container ${styles.core}`}>
+      <section className={`container g-0  ${styles.core}`}>
         <h1>Core Values</h1>
         <section className={`${styles.cards} mt-5 `}>
           {coreData.map(({ id, title, imageUrl }) => (

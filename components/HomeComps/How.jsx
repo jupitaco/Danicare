@@ -5,7 +5,7 @@ import Couple from '../../public/couple.png';
 const How = () => {
   return (
     <main className={`${styles.hows} py-5`}>
-      <article className='container d-flex flex-column flex-md-row justify-content-between'>
+      <article className='container g-0 d-flex flex-column flex-md-row justify-content-between'>
         <section
           data-aos='fade-right'
           className={`${styles.bgC} col-12 col-md-4 order-1 order-md-0`}

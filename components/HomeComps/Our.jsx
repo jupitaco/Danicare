@@ -3,7 +3,7 @@ import React from 'react';
 const Our = ({ styles, sty }) => {
   return (
     <main className={`${sty?.off} ${styles.our} `}>
-      <section className='container'>
+      <section className='container g-0'>
         <h1>Our areas of expertise</h1>
         <article className='d-flex flex-wrap gap-2'>
           <div data-aos='fade-in' className={styles.ours}>

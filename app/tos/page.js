@@ -5,12 +5,12 @@ export default function TOS() {
   return (
     <main className={styles.tos}>
       <section className={styles.hero}>
-        <article className='container '>
+        <article className='container g-0 '>
           <h1>Terms of Use</h1>
         </article>
       </section>
 
-      <section className='container my-5 py-5'>
+      <section className='container g-0 my-5 py-5'>
         <p>
           IF THIS IS A MEDICAL EMERGENCY OR CRISIS SITUATION, DIAL 9-1-1
           IMMEDIATELY Last updated September, 2022 <br /> <br />

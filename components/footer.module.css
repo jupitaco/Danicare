@@ -67,7 +67,7 @@
 }
 .pri {
   padding-top: 120px;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
   display: flex;
   justify-content: center;
   gap: 100px;

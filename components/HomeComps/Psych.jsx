@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Psych = () => {
   return (
     <main className={styles.Psych}>
-      <section className={` container d-flex flex-column text-center`}>
+      <section className={` container g-0 d-flex flex-column text-center`}>
         <h1 className='col-12 col-md-8 mx-auto'>
           Psychiatry Tailored to Suit You
         </h1>

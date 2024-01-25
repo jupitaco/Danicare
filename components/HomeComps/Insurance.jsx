@@ -10,7 +10,7 @@ import Afford from '../../public/afford.png';
 const Insurance = () => {
   return (
     <main className={styles.insure}>
-      <section className='container d-flex flex-column justify-content-between'>
+      <section className='container g-0 d-flex flex-column justify-content-between'>
         <section
           className={`${styles.art1} d-flex flex-column flex-md-row justify-content-between`}
         >

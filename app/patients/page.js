@@ -7,7 +7,7 @@ import styles from './patient.module.scss';
 export default function Patients() {
   return (
     <main
-      className={`${styles.patient} container d-flex flex-column flex-lg-row justify-content-between`}
+      className={`${styles.patient} container g-0 d-flex flex-column flex-lg-row justify-content-between`}
     >
       <section className='col-12 col-lg-4 d-flex flex-column order-1 order-lg-0'>
         <article className='py-4' data-aos='fade-left'>

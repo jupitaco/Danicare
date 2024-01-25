@@ -30,7 +30,7 @@ function NavBar() {
       <section
         className={`${styles.navContainer} d-flex flex-row align-items-center justify-content-between`}
       >
-        <nav className='d-flex container flex-row align-items-center justify-content-between col-11 col-lg-12'>
+        <nav className='d-flex container g-0 flex-row align-items-center justify-content-between col-11 col-lg-12'>
           {/* Logo */}
           <Link
             href='/'

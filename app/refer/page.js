@@ -7,7 +7,7 @@ export default function Refer() {
   return (
     <main className={styles.refer}>
       <section className={styles.hero}>
-        <article className='container'>
+        <article className='container g-0'>
           <h1 className='col-11 col-md-8 mx-auto mb-3'>
             Refer your Patients Knowing They&apos;re in Good Hands
           </h1>
@@ -20,7 +20,7 @@ export default function Refer() {
         </article>
       </section>
 
-      <section className={`${styles.breif} container d-flex flex-column`}>
+      <section className={`${styles.breif} container g-0 d-flex flex-column`}>
         <h2>In a brief look</h2>
 
         <article className='d-flex flex-wrap my-5 mx-auto justify-content-between col-12'>
@@ -146,7 +146,7 @@ export default function Refer() {
 
       <section className={styles.specialized}>
         <article
-          className={`d-flex flex-wrap gap-3 container justify-content-between align-items-center`}
+          className={`d-flex flex-wrap gap-3 container g-0 justify-content-between align-items-center`}
         >
           <div
             data-aos='fade-right'
@@ -186,7 +186,7 @@ export default function Refer() {
 
       <section className={styles.howItWorks}>
         <h2 className='my-4 text-center'>How referrals work</h2>
-        <article className={`cards  container `}>
+        <article className={`cards  container g-0 `}>
           <div data-aos='fade-right' className={`${styles.howItWorksCard} `}>
             <div className={styles.numList}>
               <div>
