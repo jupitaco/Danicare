@@ -9,10 +9,12 @@ import Testimonial from '@/components/HomeComps/Testimonial';
 import What from '@/components/HomeComps/What';
 
 import styles from './Home.module.css';
+import Header from '@/components/Header';
 
 export default function Home() {
   return (
     <>
+      <Header />
       <Psych />
       <Core />
       <What />

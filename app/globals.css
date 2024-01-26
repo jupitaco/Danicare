@@ -183,3 +183,21 @@ input::placeholder {
 hr {
   border: solid 1px grey;
 }
+
+.headerSec {
+  padding: 0.8em 0;
+  background: var(--secColor);
+  color: var(--white);
+}
+
+.headerSec p {
+  font-size: 0.9rem;
+}
+
+.headerSec .callUs {
+  border-radius: 2px;
+  padding: 8px;
+  background: var(--pryColor);
+  color: var(--black);
+  font-weight: 500;
+}
