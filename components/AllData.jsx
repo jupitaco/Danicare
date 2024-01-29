@@ -111,23 +111,23 @@ export const Inputs = (val) => {
 };
 
 export const treatmentFaqData = [
-  {
-    id: 1,
-    question: 'How do I know if DaniCare can help me?',
-    desc: (
-      <p>
-        If you&apos;re uncertain about your diagnosis, it might be helpful to
-        explore how our support at Danicare can align with your needs. Our
-        specialized care is particularly effective for individuals facing mild
-        to moderate mental health concerns that impact their day-to-day
-        functioning. It&apos;s important to note that, for those with more
-        severe symptoms requiring in-person supervision, we may not be the
-        primary option. However, we prioritize personalized care and believe in
-        working collaboratively with you to understand the best approach. We
-        encourage you to connect with us to diagnose your situation.
-      </p>
-    ),
-  },
+  // {
+  //   id: 1,
+  //   question: 'How do I know if DaniCare can help me?',
+  //   desc: (
+  //     <p>
+  //       If you&apos;re uncertain about your diagnosis, it might be helpful to
+  //       explore how our support at Danicare can align with your needs. Our
+  //       specialized care is particularly effective for individuals facing mild
+  //       to moderate mental health concerns that impact their day-to-day
+  //       functioning. It&apos;s important to note that, for those with more
+  //       severe symptoms requiring in-person supervision, we may not be the
+  //       primary option. However, we prioritize personalized care and believe in
+  //       working collaboratively with you to understand the best approach. We
+  //       encourage you to connect with us to diagnose your situation.
+  //     </p>
+  //   ),
+  // },
   {
     id: 2,
     question: 'How do I know if Danicare can help me?',
