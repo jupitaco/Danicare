@@ -61,7 +61,7 @@ const Footer = () => {
               <ul>
                 <li>
                   {' '}
-                  <Link href='/faqs'>FAQs</Link>
+                  <Link href='/help'>FAQs</Link>
                 </li>
                 <li>
                   {' '}
