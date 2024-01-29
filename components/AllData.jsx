@@ -268,7 +268,7 @@ export const insuranceFaqData = [
         To verify your insurance coverage for psychiatric care at DaniCare,
         please reach out to our billing department. They will assist you in
         understanding your insurance benefits, coverage limits, and any
-        out-of-pocket expenses you may incur. It's essential to have this
+        out-of-pocket expenses you may incur. It&apos;s essential to have this
         information upfront to make informed decisions about your mental health
         care. You can also visit our website at www.mydanicare.com for more
         information.
