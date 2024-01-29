@@ -15,8 +15,10 @@ export default function AboutUs() {
             <h1>Psychiatry transformed for everyone</h1>
 
             <p className='my-2'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore
+              We&apos;re revolutionizing Psychiatry care, redefining it with an
+              unwavering commitment to patient care, empathy, and compassion.
+              We&apos;re not just changing the game; we&apos;re transforming it
+              for everyone
             </p>
           </div>
           <figure data-aos='zoom-in'>
@@ -78,12 +80,14 @@ export default function AboutUs() {
       </section>
 
       <section className='container py-5'>
-        <div className='d-flex justify-content-between col-12 col-md-6 align-items-center'>
+        <div className='d-flex justify-content-between col-12  align-items-center'>
           <Link href='/help' className='border-bottom'>
             Have questions? View our FAQ
           </Link>
 
-          <Image className='col-3' src={hipaa} alt='' />
+          <div className='col-3 col-md-2'>
+            <Image src={hipaa} alt='' />
+          </div>
         </div>
       </section>
     </main>
