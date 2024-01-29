@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import styles from './insurance.module.css';
-import Humana from '../../public/humana.svg';
+import Optum from '../../public/optum.svg';
 import Un from '../../public/un.svg';
 import Aetna from '../../public/aetna.svg';
-import Cigna from '../../public/cigna.svg';
+import Oxford from '../../public/oxford.svg';
+import Oscar from '../../public/oscar.svg';
+import Medicare from '../../public/medicare.svg';
 import Insurea from '../../public/insurance.png';
 import Afford from '../../public/afford.png';
 
@@ -25,10 +27,12 @@ const Insurance = () => {
               easily accessible and covered.
             </p>
             <div className={styles.iIcons}>
-              <Image src={Humana} alt='Humana icon' />
               <Image src={Un} alt='United healthcare icon' />
-              <Image src={Cigna} alt='Cigna icon' />
+              <Image src={Optum} alt='Optum icon' />
               <Image src={Aetna} alt='Aetna icon' />
+              <Image src={Oxford} alt='Oxford icon' />
+              <Image src={Medicare} alt='Medicare icon' />
+              <Image src={Oscar} alt='Oscar icon' />
             </div>
             <button className={styles.check}>Check your Insurance</button>
           </article>

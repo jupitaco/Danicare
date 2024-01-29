@@ -1,10 +1,9 @@
 'use client';
 import React, { useState } from 'react';
-import { faqData } from '../AllData';
 import styles from './Faq.module.scss';
 import Accordion from './Accordion/Accordion';
 
-const FaqComps = ({ title, subTitle }) => {
+const FaqComps = ({ title, subTitle, faqData }) => {
   const [toggle, setToggle] = useState({ [1]: true });
 
   const toggleAccordion = (id) => {

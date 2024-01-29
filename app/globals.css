@@ -185,13 +185,19 @@ hr {
 }
 
 .headerSec {
-  padding: 0.8em 0;
   background: var(--secColor);
   color: var(--white);
+  height: 78px;
 }
 
 .headerSec p {
   font-size: 0.9rem;
+}
+
+.headerSec small {
+  font-style: italic;
+  margin: 0;
+  padding: 0;
 }
 
 .headerSec .callUs {
@@ -200,4 +206,8 @@ hr {
   background: var(--pryColor);
   color: var(--black);
   font-weight: 500;
+}
+
+select:disabled {
+  opacity: 0.5;
 }

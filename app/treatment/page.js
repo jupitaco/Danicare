@@ -7,6 +7,7 @@ import Our from '@/components/HomeComps/Our';
 import personalCare from '@/public/personalCare.png';
 import relationship from '@/public/relationship.png';
 import FaqComps from '@/components/FaqComp/FaqComps';
+import { treatmentFaqData } from '@/components/AllData';
 
 export default function Treatment() {
   return (
@@ -118,7 +119,10 @@ export default function Treatment() {
       </section>
 
       <section className=' col-11 col-md-8 mx-auto'>
-        <FaqComps title='Frequently Asked Questions' />
+        <FaqComps
+          faqData={treatmentFaqData}
+          title='Frequently Asked Questions'
+        />
       </section>
     </main>
   );

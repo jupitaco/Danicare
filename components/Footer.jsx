@@ -22,7 +22,10 @@ const Footer = () => {
               <Link href='/'>
                 <Image src={logo} alt='Danicare Logo' />
               </Link>
-              <address>2702 ANEJO DR LAREDO TX 78054</address>
+              <address>
+                3210 Jamie zapata memorial highway. <br />
+                Suite A6 Laredo TX 78043
+              </address>
             </div>
           </section>
           <section
@@ -110,12 +113,12 @@ const Footer = () => {
             </div>
           </section>
         </main>
-        <section className={styles.pri}>
+        {/* <section className={`${styles.pri} mb-3`}>
           <Link href='/privacy'>Privacy Policy</Link>
           <Link href='/tos'>Terms of Use</Link>
-        </section>
-        <hr className='container mb-4' />
-        <section className={styles.copy}>
+        </section> */}
+        <hr className='container mb-4 mt-5' />
+        <section className={`${styles.copy}`}>
           <p>All rights reserved &copy; 2024 DaniCare</p>
         </section>
       </footer>

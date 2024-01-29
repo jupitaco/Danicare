@@ -110,7 +110,7 @@ export const Inputs = (val) => {
   ];
 };
 
-export const faqData = [
+export const treatmentFaqData = [
   {
     id: 1,
     question: 'How do I know if DaniCare can help me?',
@@ -207,6 +207,89 @@ export const faqData = [
         of your coverage. For some, it&apos;s just a copay. If you have an unmet
         deductible, it could be more. Call the number on your insurance card and
         ask about your plan&apos;s coverage for outpatient psychiatric services.
+      </p>
+    ),
+  },
+];
+
+export const insuranceFaqData = [
+  {
+    id: 1,
+    question:
+      'What types of insurance does DaniCare accept for psychiatric services?',
+    desc: (
+      <p>
+        At DaniCare, we understand the importance of accessible mental health
+        care. We currently accept a variety of insurance plans to ensure our
+        services are available to as many individuals as possible. Please
+        contact{' '}
+        <a href='mailto: hello@mydanicare.com'> hello@mydanicare.com </a> or
+        check our website at <a href='www.mydanicare.com'>www.mydanicare.com</a>{' '}
+        for the most up-to-date information on accepted insurance providers.
+      </p>
+    ),
+  },
+  {
+    id: 2,
+    question:
+      'How does DaniCare handle confidentiality and privacy in psychiatric treatment, especially concerning insurance claims?',
+    desc: (
+      <p>
+        At DaniCare, we prioritize the confidentiality and privacy of our
+        patients. When processing insurance claims, we adhere to strict
+        confidentiality standards to protect your sensitive information. Rest
+        assured that your privacy is a top priority, and our staff is trained to
+        handle all information with the utmost care and discretion. For any
+        privacy concerns, you can contact our information center at{' '}
+        <a href='mailto: hello@mydanicare.com'> hello@mydanicare.com </a>
+      </p>
+    ),
+  },
+  {
+    id: 3,
+    question: 'What psychiatric services are covered by insurance at DaniCare?',
+    desc: (
+      <p>
+        Understanding what psychiatric services are covered by insurance is
+        crucial for informed healthcare decisions. DaniCare accepts insurance
+        coverage for a wide range of psychiatric services, including therapy
+        sessions, medication management, and other specialized treatments. Feel
+        free to contact our office or refer to your insurance plan documents for
+        specific details on covered services.
+      </p>
+    ),
+  },
+  {
+    id: 4,
+    question:
+      'How can I verify my insurance coverage for psychiatric care at DaniCare?',
+    desc: (
+      <p>
+        To verify your insurance coverage for psychiatric care at DaniCare,
+        please reach out to our billing department. They will assist you in
+        understanding your insurance benefits, coverage limits, and any
+        out-of-pocket expenses you may incur. It's essential to have this
+        information upfront to make informed decisions about your mental health
+        care. You can also visit our website at www.mydanicare.com for more
+        information.
+      </p>
+    ),
+  },
+
+  {
+    id: 6,
+    question:
+      'Can I use out-of-network insurance at DaniCare for psychiatric services?',
+    desc: (
+      <p>
+        DaniCare recognizes the importance of flexibility in accessing mental
+        health services. While we do accept many in-network insurance plans, we
+        also accommodate out-of-network coverage. If you have out-of-network
+        benefits, please contact our billing department to discuss the
+        reimbursement process and any potential additional costs associated with
+        using out-of-network insurance at DaniCare. For inquiries, you can email
+        our information center at{' '}
+        <a href='mailto: hello@mydanicare.com'> hello@mydanicare.com. </a>
       </p>
     ),
   },

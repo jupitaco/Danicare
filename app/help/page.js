@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Help.module.scss';
 import FaqComps from '@/components/FaqComp/FaqComps';
+import { treatmentFaqData } from '@/components/AllData';
 
 export default function Help() {
   return (
@@ -19,7 +20,7 @@ export default function Help() {
       </section>
 
       <section className=' col-11 col-md-8 mx-auto'>
-        <FaqComps title='' />
+        <FaqComps faqData={treatmentFaqData} title='' />
       </section>
     </main>
   );

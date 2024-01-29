@@ -2,12 +2,15 @@ import React from 'react';
 import styles from './Insurance.module.scss';
 import FaqComps from '@/components/FaqComp/FaqComps';
 import Image from 'next/image';
-import Humana from '../../public/humana.svg';
-import Un from '../../public/un.svg';
-import Aetna from '../../public/aetna.svg';
-import Cigna from '../../public/cigna.svg';
-import find from '@/public/find.svg';
-import visitTime from '@/public/visitTime.svg';
+import Optum from '@/public/optum.svg';
+import Un from '@/public/un.svg';
+import Aetna from '@/public/aetna.svg';
+import Oxford from '@/public/oxford.svg';
+import Oscar from '@/public/oscar.svg';
+import Medicare from '@/public/medicare.svg';
+// import find from '@/public/find.svg';
+// import visitTime from '@/public/visitTime.svg';
+import { insuranceFaqData } from '@/components/AllData';
 
 export default function Insurance() {
   return (
@@ -29,16 +32,16 @@ export default function Insurance() {
               <label>Provider </label>
               <select className='form-select'>
                 <option>Select Provider</option>
+                <option>Optum</option>
                 <option>aetna</option>
-                <option>cigna</option>
-                <option>Blue Cross</option>
-                <option>United Healthcare</option>
-                <option>Humana</option>
+                <option>Oscar</option>
+                <option>Oxford</option>
+                <option>Medicare</option>
               </select>
             </div>
             <div className='d-flex flex-column my-4'>
               <label>Insurance Plan </label>
-              <select className='form-select'>
+              <select disabled className='form-select'>
                 <option>Select Plan</option>
                 <option>Life</option>
                 <option>Fire</option>
@@ -55,20 +58,23 @@ export default function Insurance() {
 
       <section
         data-aos='fade-left'
-        className={` d-flex flex-column justify-content-center col-10 col-md-6 mx-auto my-5`}
+        className={` d-flex flex-column justify-content-center col-10  mx-auto my-5`}
       >
         <small className='text-center my-3'>
           Note: We only see patients whose insurance we accept.
         </small>
         <div className={styles.iIcons}>
-          <Image src={Humana} alt='Humana icon' />
           <Image src={Un} alt='United healthcare icon' />
-          <Image src={Cigna} alt='Cigna icon' />
+          <Image src={Optum} alt='Optum icon' />
           <Image src={Aetna} alt='Aetna icon' />
+          <Image src={Oscar} alt='Oscar icon' />
+          <Image src={Oxford} alt='Oxford icon' />
+          <Image src={Medicare} alt='Medicare icon' />
+          <p>+ more</p>
         </div>
       </section>
 
-      <section
+      {/* <section
         className={`${styles.findSection} d-flex flex-wrap gap-3 container g-0 my-5`}
       >
         <article
@@ -111,20 +117,10 @@ export default function Insurance() {
             </button>
           </div>
         </article>
-      </section>
+      </section> */}
 
-      <section className=' col-11 col-md-8 mx-auto mt-5 pt-5'>
-        <FaqComps
-          title='How much do visits cost?'
-          subTitle='The final cost of your visit depends on the details of your coverage. We only work with patients whose insurance we accept'
-        />
-      </section>
-
-      <section className=' col-11 col-md-8 mx-auto mt-4'>
-        <FaqComps
-          title='Understanding your coverage'
-          subTitle="Navigating insurance isn't anyone's favorite, but we're here to help"
-        />
+      <section className=' col-11 col-md-8 mx-auto mt-5 '>
+        <FaqComps faqData={insuranceFaqData} title='FAQs' subTitle='' />
       </section>
     </main>
   );

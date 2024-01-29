@@ -14,6 +14,11 @@
       margin-bottom: 0.3em;
       margin-left: 2em;
     }
+    p {
+      a {
+        text-decoration: underline !important;
+      }
+    }
   }
 
   .question {

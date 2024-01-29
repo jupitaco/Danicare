@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 // styles
 import styles from './NavBar.module.scss';
-import { FaChevronDown } from 'react-icons/fa';
+// import { FaChevronDown } from 'react-icons/fa';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import logo from '@/public/logo.svg';

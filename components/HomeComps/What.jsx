@@ -19,8 +19,8 @@ const What = () => {
     },
     {
       id: 2,
-      title: 'Affordable Options',
-      desc: 'Danicare welcomes both insured and uninsured clients. We offer competitive rates and accept cash payments to ensure access to quality mental health care for all.',
+      title: 'Virtual Visit',
+      desc: 'Transforming mental healthcare through virtual visits – connecting you with expert psychiatrists from the comfort of your space.',
       imageUrl: Wallet,
     },
     {

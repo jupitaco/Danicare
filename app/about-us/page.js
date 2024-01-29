@@ -2,11 +2,13 @@ import React from 'react';
 import styles from './AboutUs.module.scss';
 import aboutA from '@/public/aboutA.png';
 import aboutB from '@/public/aboutB.png';
+import hipaa from '@/public/hippa.svg';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function AboutUs() {
   return (
-    <main className={styles.about}>
+    <main className={`${styles.about} d-flex flex-column`}>
       <section className={styles.hero}>
         <article className='container g-0 d-flex flex-column'>
           <div className='col-12 col-md-8 mx-auto text-center my-3'>
@@ -73,6 +75,16 @@ export default function AboutUs() {
             </p>
           </div>
         </article>
+      </section>
+
+      <section className='container py-5'>
+        <div className='d-flex justify-content-between col-12 col-md-6 align-items-center'>
+          <Link href='/help' className='border-bottom'>
+            Have questions? View our FAQ
+          </Link>
+
+          <Image className='col-3' src={hipaa} alt='' />
+        </div>
       </section>
     </main>
   );
