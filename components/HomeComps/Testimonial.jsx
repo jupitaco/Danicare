@@ -52,7 +52,7 @@ const Testimonial = () => {
           </article>
         </SwiperSlide>
 
-        <sevtion className='d-flex gap-5 justify-content-center'>
+        <section className='d-flex gap-5 justify-content-center'>
           <button className='testBtnNext'>
             <svg
               width='70'
@@ -131,7 +131,7 @@ const Testimonial = () => {
               </defs>
             </svg>
           </button>
-        </sevtion>
+        </section>
       </Swiper>
     </main>
   );

@@ -84,7 +84,7 @@ const What = () => {
           ))}
         </section>
 
-        <sevtion className='d-flex gap-5 justify-content-end col-11 mx-auto'>
+        <section className='d-flex gap-5 justify-content-end col-11 mx-auto'>
           <button className='swiperBtnNext'>
             <svg
               width='70'
@@ -163,7 +163,7 @@ const What = () => {
               </defs>
             </svg>
           </button>
-        </sevtion>
+        </section>
       </Swiper>
     </main>
   );

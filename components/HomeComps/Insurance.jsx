@@ -8,6 +8,7 @@ import Oscar from '../../public/oscar.svg';
 import Medicare from '../../public/medicare.svg';
 import Insurea from '../../public/insurance.png';
 import Afford from '../../public/afford.png';
+import Link from 'next/link';
 
 const Insurance = () => {
   return (
@@ -34,7 +35,9 @@ const Insurance = () => {
               <Image src={Medicare} alt='Medicare icon' />
               <Image src={Oscar} alt='Oscar icon' />
             </div>
-            <button className={styles.check}>Check your Insurance</button>
+            <button className={styles.check}>
+              <Link href='/insurance'>Check your Insurance</Link>
+            </button>
           </article>
           <article
             data-aos='fade-right'

@@ -21,7 +21,7 @@ function NavBar() {
     { id: 1, title: 'Treatment', url: '/treatment' },
     { id: 2, title: 'Patients', url: '/patients' },
     { id: 3, title: 'Insurance', url: '/insurance' },
-    { id: 4, title: ' Our Psychiatrist', url: '/our-psych' },
+    { id: 4, title: ' Our Psychiatrist', url: '/#ourpsych' },
     { id: 5, title: 'Help', url: '/help' },
     { id: 6, title: ' About us', url: '/about-us' },
   ];

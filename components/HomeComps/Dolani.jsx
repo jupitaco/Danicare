@@ -4,7 +4,7 @@ import styles from './dolani.module.css';
 
 const Dolani = () => {
   return (
-    <main className={styles.containerDolani}>
+    <main id='ourpsych' className={styles.containerDolani}>
       <section className={`${styles.dolas}  d-flex flex-column flex-lg-row`}>
         <section className={`${styles.dL} order-1 order-lg-0 py-5 `}>
           <h6>Our Psychiatrist</h6>
