@@ -128,21 +128,21 @@ export const treatmentFaqData = [
   //     </p>
   //   ),
   // },
+  // {
+  //   id: 2,
+  //   question: 'How do I know if Danicare can help me?',
+  //   desc: (
+  //     <p>
+  //       Any prior tech experience is super useful; however, it is not required
+  //       for enrollment into our academy as Jupita Academy programs are
+  //       beginner-friendly. On the other hand, solid social skills are a must, as
+  //       any great tech enthusiast listens closely, empathizes and communicates
+  //       clearly.
+  //     </p>
+  //   ),
+  // },
   {
-    id: 2,
-    question: 'How do I know if Danicare can help me?',
-    desc: (
-      <p>
-        Any prior tech experience is super useful; however, it is not required
-        for enrollment into our academy as Jupita Academy programs are
-        beginner-friendly. On the other hand, solid social skills are a must, as
-        any great tech enthusiast listens closely, empathizes and communicates
-        clearly.
-      </p>
-    ),
-  },
-  {
-    id: 3,
+    id: 1,
     question: 'Does DaniCare take my insurance?',
     desc: (
       <>
@@ -166,7 +166,7 @@ export const treatmentFaqData = [
     ),
   },
   {
-    id: 4,
+    id: 2,
     question: 'Does DaniCare provide Therapy?',
     desc: (
       <p>
@@ -179,7 +179,7 @@ export const treatmentFaqData = [
   },
 
   {
-    id: 6,
+    id: 3,
     question: 'What conditions does DaniCare treat?',
     desc: (
       <>
@@ -198,7 +198,7 @@ export const treatmentFaqData = [
     ),
   },
   {
-    id: 7,
+    id: 4,
     question: 'Can I get an estimate of my visit cost?',
     desc: (
       <p>
