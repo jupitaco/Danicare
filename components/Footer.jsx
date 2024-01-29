@@ -63,10 +63,10 @@ const Footer = () => {
                   {' '}
                   <Link href='/help'>FAQs</Link>
                 </li>
-                <li>
+                {/* <li>
                   {' '}
                   <Link href='blog'>Blog</Link>
-                </li>
+                </li> */}
                 <li>
                   {' '}
                   <Link href='#'>Anxiety Test</Link>
