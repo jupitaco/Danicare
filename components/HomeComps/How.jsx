@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './how.module.css';
 import Couple from '../../public/couple.png';
+import Link from 'next/link';
 
 const How = () => {
   return (
@@ -16,7 +17,10 @@ const How = () => {
             <h5>Become a Patient</h5>
           </div>
           <h6>Fill the following information</h6>
-          <button className={styles.become}>Become a Patient</button>
+
+          <Link href='/patients'>
+            <button className={styles.become}>Become a Patient</button>
+          </Link>
           <div className={styles.hW}>
             <h4>02.</h4>
             <h5>Book an appointment</h5>

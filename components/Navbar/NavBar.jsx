@@ -74,7 +74,12 @@ function NavBar() {
                     <a href='#' className={`${styles.login} text-center`}>
                       Login{' '}
                     </a>
-                    <a href='#' className={`${styles.signup} text-center`}>
+                    <a
+                      href='https://app2.luminello.com/dolaniajanakumd/form'
+                      target='_blank'
+                      rel='noreferrer'
+                      className={`${styles.signup} text-center`}
+                    >
                       Get Started
                     </a>
                   </div>

@@ -3,6 +3,7 @@ import styles from './insurance.module.css';
 import Optum from '../../public/optum.svg';
 import Un from '../../public/un.svg';
 import Aetna from '../../public/aetna.svg';
+import Magellan from '../../public/magellan.svg';
 import Oxford from '../../public/oxford.svg';
 import Oscar from '../../public/oscar.svg';
 import Medicare from '../../public/medicare.svg';
@@ -31,6 +32,7 @@ const Insurance = () => {
               <Image src={Un} alt='United healthcare icon' />
               <Image src={Optum} alt='Optum icon' />
               <Image src={Aetna} alt='Aetna icon' />
+              <Image src={Magellan} alt='Magellan icon' />
               <Image src={Oxford} alt='Oxford icon' />
               <Image src={Medicare} alt='Medicare icon' />
               <Image src={Oscar} alt='Oscar icon' />

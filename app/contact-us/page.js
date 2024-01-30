@@ -42,7 +42,8 @@ export default function ContactUs() {
               <div className='d-flex flex-column justify-content-center align-items-center'>
                 <CiLocationOn size={20} />
                 <address className='my-2 text-center'>
-                  2702 ANEJO DR LAREDO <br /> TX 78054
+                  3210 Jamie zapata memorial highway. <br /> Suite A6 Laredo TX
+                  78043
                 </address>
               </div>
             </div>

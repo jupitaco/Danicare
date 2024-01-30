@@ -29,10 +29,16 @@ export default function Treatment() {
           </div>
 
           <div className='my-3'>
-            <button className='sec-btn' type='button'>
-              {' '}
-              Get Started{' '}
-            </button>
+            <a
+              href='https://app2.luminello.com/dolaniajanakumd/form'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='sec-btn' type='button'>
+                {' '}
+                Get Started{' '}
+              </button>
+            </a>
           </div>
         </article>
         <article
@@ -70,10 +76,16 @@ export default function Treatment() {
               </div>
 
               <div className='my-3'>
-                <button className='sec-btn' type='button'>
-                  {' '}
-                  Get Started{' '}
-                </button>
+                <a
+                  href='https://app2.luminello.com/dolaniajanakumd/form'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <button className='sec-btn' type='button'>
+                    {' '}
+                    Get Started{' '}
+                  </button>
+                </a>
               </div>
             </article>
           </article>
@@ -98,10 +110,16 @@ export default function Treatment() {
               </div>
 
               <div className='my-3'>
-                <button className='sec-btn' type='button'>
-                  {' '}
-                  Get Started{' '}
-                </button>
+                <a
+                  href='https://app2.luminello.com/dolaniajanakumd/form'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <button className='sec-btn' type='button'>
+                    {' '}
+                    Get Started{' '}
+                  </button>
+                </a>
               </div>
             </article>
             <article
