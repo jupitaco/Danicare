@@ -20,9 +20,15 @@ const Talk = () => {
             <p className='mt-2'>
               Our Psychiatrist are always ready to talk to you
             </p>
-            <button className={`${styles.bookBtn} mt-5`}>
-              Book Appointment
-            </button>
+            <a
+              href='https://app2.luminello.com/dolaniajanakumd/form'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className={`${styles.bookBtn} mt-5`}>
+                Book Appointment
+              </button>
+            </a>
           </div>
         </article>
       </section>
