@@ -64,9 +64,9 @@ const Insurance = () => {
             <div>
               <h1>Affordable Optons</h1>
               <p>
-                At DaniCare, we believe everyone deserves quality mental health
-                care. If you&apos;re not insured, worry not! We offer affordable
-                cash payment options tailored to your budget.
+                We provide a superbill for our out-of-network clients and help
+                with reimbursement. Please reach out with any questions,
+                we&apos;re happy to work with you to keep treatment affordable.
               </p>
             </div>
           </article>
