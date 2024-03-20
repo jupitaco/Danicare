@@ -13,7 +13,7 @@ export default function Help() {
             <input
               type='search'
               placeholder='Search'
-              className='form-control'
+              className=' form-control'
             />
           </div>
         </article>

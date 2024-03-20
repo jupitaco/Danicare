@@ -75,7 +75,7 @@ function NavBar() {
                       Login{' '}
                     </a>
                     <a
-                      href='https://app2.luminello.com/dolaniajanakumd/form'
+                      href='http://provider.kareo.com/dolani-ajanaku#?view=booking'
                       target='_blank'
                       rel='noreferrer'
                       className={`${styles.signup} text-center`}
