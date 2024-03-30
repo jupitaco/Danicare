@@ -30,7 +30,7 @@ export default function Treatment() {
 
           <div className='my-3'>
             <a
-              href='https://app2.luminello.com/dolaniajanakumd/form'
+              href='http://provider.kareo.com/dolani-ajanaku#?view=booking'
               target='_blank'
               rel='noreferrer'
             >
@@ -77,7 +77,7 @@ export default function Treatment() {
 
               <div className='my-3'>
                 <a
-                  href='https://app2.luminello.com/dolaniajanakumd/form'
+                  href='http://provider.kareo.com/dolani-ajanaku#?view=booking'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -111,7 +111,7 @@ export default function Treatment() {
 
               <div className='my-3'>
                 <a
-                  href='https://app2.luminello.com/dolaniajanakumd/form'
+                  href='http://provider.kareo.com/dolani-ajanaku#?view=booking'
                   target='_blank'
                   rel='noreferrer'
                 >

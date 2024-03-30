@@ -27,9 +27,9 @@ export default function ContactUs() {
             <div className='d-flex flex-wrap gap-3 mt-4 align-items-start'>
               <div className='d-flex flex-column justify-content-center align-items-center'>
                 <IoPhonePortraitOutline size={20} />
-                <a href='tel: 923-213-1234' className='my-2'>
+                <a href='tel: +1(956)266-8476' className='my-2'>
                   {' '}
-                  923-213-1234
+                  +1(956)266-8476
                 </a>
               </div>
               <div className='d-flex flex-column justify-content-center align-items-center'>
